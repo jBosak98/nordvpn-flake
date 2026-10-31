@@ -21,7 +21,7 @@
   nordvpn-arm64-deb,
 }: let
   pname = "nordvpn";
-  version = "4.2.0";
+  version = "6.0.2";
 
   nordVPNBase = stdenv.mkDerivation {
     inherit pname version;
